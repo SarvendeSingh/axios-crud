@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+.crud-main{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+    gap: 12px;
+    /* justify-content: space-between; */
+}
+
+.box{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 7px;
+    width: 26.385%;
+    box-shadow: 1px 1px 10px #fff inset;
+    transition: all 0.3s ease;
+}
+.box:hover{
+    transform: scale(1.03);
+}
+
+button{
+    border: 0;
+    margin-right: 12px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    filter: opacity(0.8);
+}
+.edit{
+    background-color: green;
+    color: #fff;
+
+}
+
+.delete{
+    background-color: red;
+    color: #fff;
+}
+
+.form-div{
+    max-width: 80%;
+    margin: auto;
+    gap: 12px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-div form{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap:8px;
+    justify-content: space-between;
+    background-color: #525252;
+    border-radius: 2px;
+}
+
+input{
+    width: 37%;
+    height: 35px;
+    border: 0 !important;
+    box-shadow: 0 !important;
+    padding: 0 6px;
+    border-radius: 2px;
+}
+input:focus-visible {
+    outline: 0px !important;
+}
+
+.form-div form button{
+    width: 20%;
+    height: 35px;
+    margin: 0;
+}
